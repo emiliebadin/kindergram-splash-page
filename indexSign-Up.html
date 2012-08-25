@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--html xmlns:fb="http://www.facebook.com/2008/fbml"-->
+ <head>
+		<meta charset="utf-8">
+		<meta content="width=1100" name="viewport">
+		<meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible">
+		<title>
+			Welcome to Kindergram
+		</title>
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+
+		<!--link href="this is the link to kindergram favicon image"-->
+		<!--script="/javascript/dashboard.js?" type="text/javascrpt"></script-->
+		<!--script="text/javascript"></script-->
+		<!--script src="//cdn.optimzely.com"></script-->
+ </head>
+	
+	<body>
+		<div class="topbar">
+			<div class= "fill">
+				<div class="container">
+<h3><a href="/">Kindergram</a></h3>
+
+				</div>
+		<div class="container">
+		<div class="twitter_bar">
+			follow us on twitter!
+			<a href="https://twitter.com/#!/TheKindergram">here &raquo;</a>			
+		</div>
+		<div id="tellYourFriends">
+		<div id="twitterContainer">		
+			
+				<a href="http://twitter.com/share" class="twitter-share-button" data-text="Check out Kindergram" data-url="http://kindergr.am" data-counturl="http://kindergr.am"  data-related="EmilieBADIN:socialps" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+			<div id="facebookContainer">
+				<a name="fb_share" type="button_count" share_url="http://kindergr.am" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></div>
+			<div id="pinterestContainer">
+				<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fkindergr.am&media=http%3A%2F%2Fkindergr.am%2Flogo&description=Kindergram%20-%20Pinterest%20for%20kids" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+			</div>
+
+		<div id="plus1Container">
+			<g:plusone size="medium" href="http://kindergr.am"></g:plusone>
+		</div>
+	</div>
+		<div class="cf" id="app">
+			<div id="wrap">
+				<div id="signup_n_login_container">
+					<ul class='tabs cf'>
+						<li class="signup_tab">
+							<a data-tab="signup" href="/register">Sign Up</a>
+						</li>
+						<li class="login_tab">
+							<a class="selected" data-tab="login" href="#">Log In</a>
+						</li>
+					</ul>
+					<div class="forms_container">
+						<div class="form_container hidden" id="signup_form_container">
+							<p class="message">Signing up is free, easy, and safe!</p>
+							<div class="msg_box" id="email_msg_box"></div>
+							<div class="msg_box" id="username_msg_box"></div>
+							<div class="msg_box" id="password_msg_box"></div>
+							<form action="http://kindergr.am/register" class="cf" id="signup_form" method="post">
+								<!--input name="authenticity_token" type"hidden" value=""-->
+								<input name="from_frontpage" type="hidden" value="true">
+								<input id="keydown_count" name="keydown_count" type="hidden" value="0">
+								<input id="click_count" name="click_count" type="hidden" value="0">
+								<div class="input first" id="email_field">
+									<input autocomplete="off" name="user[mail]" placeholder="Email Address" type="text">
+									<div class="msg"></div>
+								</div>
+						<div class="input" id="username_field">
+							<input autocomplete="off" name="user[sitename]" placeholder="Username" type="text">
+							<div class="msg"></div>
+						</div>		
+						<div class="input last" id="password_field">
+							<input autocomplete="off" name="user[password]" placeholder="Password" type="password">
+							<div class="msg"></div>
+						</div>
+						<input class="submit_btn" type="submit" value="Sign Up Now!">
+							</form>
+						</div>
+						<div class="form_container" id="login_form_container">
+							<p>
+								<a href="/forgot password">Forgot Password?</a>
+							</p>
+							<form action="http://kindergr.am/login" class="cf" method="post">
+								<input name="origin" type="hidden" value="homepage">
+								<!--input name="uathenticity_token" type="hidden" value=""-->
+								<div class="input first">
+									<input autocomplete="on" name="user[mail]" placeholder="Email Address" type="text">
+								</div>
+								<div class="input last">
+									<input autocomplete="on" name="user[password]" placeholder="Password" type="password">
+								</div>
+<div class="input">
+	<input class="submit_btn" type="submit" value="Log In">
+</div>
+<div class="input remember me">
+	<input class="checkbox_field" name="user[save_login]" type="checkbox" value="1">
+	<span>Remember Me</span>
+</div>
+							</form>
+							<div class="separator"></div>
+							<div class="facebook_signup cf">
+								<span class="text">Or, log in with:</span>
+								<div class="facebook_button">
+									<a class="fb_button fb_button_medium">
+										<span class="fb_button_text">
+											Log In
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<header>
+					<h1 id="logo">
+						<a data-section="landing" href="/">Kindergram</a>
+					</h1>
+				</header>
+				<nav>
+					<ul id="intro_links">
+						<li>
+							<a data-section="share" href="#">Share Artworks</a>
+						</li>
+						<li>
+							<a data-section="control" href="#">Control Who Sees What</a>
+						</li>
+						<li>
+							<a data-section="autopost" href="#">Create Artworks Anywhere</a>
+						</li>
+						<li>
+							<a data-section="mobile" href="#">Get the iPad App</a>
+						</li>
+						<li>
+							<a data-section="examples" href="#">Examples</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		
+		<font color=#848484>Pinterest for kids who want to share and follow artworks!</font>
+		
+	</body>
+</html>
+ 
