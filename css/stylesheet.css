@@ -215,7 +215,7 @@ li.pin-share {
 	height: 77%;
 }
 #pin-it-button {
-	opacity: ;
+	opacity: 0;
 	margin-top: -37px;
 	margin-left: 0px;
 	margin-bottom: 15px;
@@ -242,7 +242,7 @@ a.g-plusone {
 	width: 62%;
 	height: 70%;
 }
-#___plusone_0 {}
+
 
 #about-text {
 	width: 80%;
