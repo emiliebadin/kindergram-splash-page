@@ -6,9 +6,21 @@ threadsafe: yes
 
 handlers:
 - url: /
-  static_files: static/index.html
-  upload: static/.*
+  static_files: index.html
+  upload: /.*
   
+- url: /css/(.*\.(css))
+  static_files: css/\1
+  upload: css/.*
+
+- url: /img/(.*\.(png|jpg|gif|jpg|jpeg|ico|svg))
+  static_files: img/\1
+  upload: img/.*
+    
+- url: /(.*\.(html|css|json|txt|mp3|ogg|ttf|js))
+  static_files: static/\1
+  upload: static/.* 
+    
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
