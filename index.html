@@ -10,6 +10,7 @@
 	<link rel="icon" type="image/png" href="/img/kindergram-pinwheel1.png">
 	<link rel="shortcut icon" href="/img/kindergram-pinwheel1.png">
 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 </head>
 
 
@@ -58,8 +59,10 @@
 
 		<span style="float:left">
 			<li class="pin-share"><img src="img/pin-button-sketch.png" class="pin-button-sketch">
-				<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.kindergr.am&media=http%3A%2F%2Fwww.kindergr.am&description=Pinterest%20for%20kids!%20that's%20cooool!" id= "pin-in-button" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/images/PinExt.png" title="Pin It" style="margin-top: -30px; margin-bottom: 22px;"/></a></li>
+				<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.kindergr.am&media=http%3A%2F%2Fwww.kindergr.am&description=Pinterest%20for%20kids!%20that's%20cooool!" id= "pin-in-button" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/images/PinExt.png" title="Pin It"/></a></li>
 		</span>
+
+		
 
 		<span style="float:left">
 			<li class="google-share"><img src="img/plusone-button-sketch.png" class="plusone-button-sketch"><div class="g-plusone" data-annotation="none"></div></li>
@@ -110,7 +113,7 @@
 
 
 
-	<!end of #aboutright>
+	<!end of section body>
 	<div id="aboutfooter">
 		<div class="footer">
 			<div class:"donate">
@@ -144,12 +147,25 @@ olark.identify('6574-372-10-4267');/*]]>{/literal}*/</script><noscript><a href="
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+<script>
+$('iframe').css({
+	position:'relative',
+	top: '-30px'
+})
+</script>
 <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
+</script>
+<script>
+$('iframe').css({
+	position:'relative',
+	top: '-30px',
+	opacity: 0,
+})
 </script>
 </body>
 </html>
