@@ -243,6 +243,11 @@ a.g-plusone {
 	width: 62%;
 	height: 70%;
 }
+li.g-plus-button {
+	opacity: 0;
+	margin-top: -40px;
+	list-style: none;
+}
 
 
 #about-text {
