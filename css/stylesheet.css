@@ -52,7 +52,7 @@ section.header h1{
 	margin-top: 30px !important;
 	display: block;
 	-webkit-font-smoothing: antialiased;
-	font-family: "century gothic";
+	font-family: "century gothic", "helvetica neue", helvetica, arial, sans-serif;
 	letter-spacing: 2px;
 	background-image: url(../img/shadow-white-title.png) no-repeat;
 }
